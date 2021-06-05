@@ -6,22 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
 
     <title>My Portfolio</title>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(136, 65, 207)">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
+      style="background-color: rgb(136, 65, 207)"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">Qmak's</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -46,9 +68,14 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/panda.jpg" alt="Panda" style="width: 200px" class="rounded-circle img-thumbnail" />
+      <img
+        src="img/panda.jpg"
+        alt="Panda"
+        style="width: 200px"
+        class="rounded-circle img-thumbnail"
+      />
       <h1 class="display-4">Bagas Qmak</h1>
-      <p class="lead">Student | Programmer | Noleper</p>
+      <p class="lead">|</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -63,16 +90,24 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti corporis id distinctio vel repellendus labore pariatur quos maxime. Odio.</p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              corrupti corporis id distinctio vel repellendus labore pariatur
+              quos maxime. Odio.
+            </p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae, sunt iste enim, modi nulla vitae laborum quae unde blanditiis explicabo autem culpa numquam temporibus.</p>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              recusandae, sunt iste enim, modi nulla vitae laborum quae unde
+              blanditiis explicabo autem culpa numquam temporibus.
+            </p>
           </div>
         </div>
       </div>
@@ -90,32 +125,53 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
+              <img
+                src="img/projects/1.jpg"
+                class="card-img-top"
+                alt="Project 1"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
+              <img
+                src="img/projects/2.jpg"
+                class="card-img-top"
+                alt="Project 2"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
+              <img
+                src="img/projects/3.jpg"
+                class="card-img-top"
+                alt="Project 3"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
@@ -123,17 +179,31 @@
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
+              <img
+                src="img/projects/4.jpg"
+                class="card-img-top"
+                alt="Project 4"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5" />
+              <img
+                src="img/projects/5.jpg"
+                class="card-img-top"
+                alt="Project 5"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
@@ -153,32 +223,73 @@
     <section id="contact">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <div
+              class="
+                alert alert-success alert-dismissible
+                fade
+                show
+                d-none
+                my-alert
+              "
+              role="alert"
+            >
               <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
             </div>
             <form name="qmak-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="name" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                />
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+              <button type="submit" class="btn btn-primary btn-kirim">
+                Kirim
+              </button>
+              <button
+                class="btn btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-grow spinner-grow-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
                 Loading...
               </button>
             </form>
@@ -196,15 +307,70 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="text-white text-center pb-5" style="background-color: rgb(136, 65, 207)">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> <a href="https://www.instagram.com/bagasqmak_/" class="text-white fw-bold">BagasQmak</a></p>
+    <footer
+      class="text-white text-center pb-5"
+      style="background-color: rgb(136, 65, 207)"
+    >
+      <p>
+        Created with <i class="bi bi-heart-fill text-danger"></i>
+        <a
+          href="https://www.instagram.com/bagasqmak_/"
+          class="text-white fw-bold"
+          >BagasQmak</a
+        >
+      </p>
     </footer>
     <!-- Akhir Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      let cards = document.querySelectorAll("#projects .card");
+      cards.forEach((card, i) => {
+        card.dataset.aos = "flip-left";
+        card.dataset.aosDelay = i * 200;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+
+      gsap.from(".jumbotron img", {
+        duration: 1.5,
+        rotateY: "360deg",
+        opacity: 0,
+      });
+      gsap.from(".jumbotron h1", {
+        duration: 1,
+        delay: 1,
+        x: -100,
+        ease: "back.out(1.7)",
+        opacity: 0,
+      });
+      gsap.to(".jumbotron p", {
+        duration: 1,
+        delay: 1.5,
+        text: "Student | Programmer | Noleper",
+      });
+    </script>
 
     <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbzELNIeEWZ3fp3pfs-p1bTHaz0-F_P3d8bFKNhtpGn5Y_Szew6skf8v__qqDcYHbpoUgg/exec";
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzELNIeEWZ3fp3pfs-p1bTHaz0-F_P3d8bFKNhtpGn5Y_Szew6skf8v__qqDcYHbpoUgg/exec";
       const form = document.forms["qmak-contact-form"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");
